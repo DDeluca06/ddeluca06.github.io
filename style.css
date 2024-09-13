@@ -115,7 +115,7 @@ Classes
 
 .card-container {
     width: 100%;
-    max-width: 500px;
+    max-width: 520px;
     margin-left: 45px;
     margin-top: 97px;
     background-color: var(--var-card-dark);
@@ -128,11 +128,6 @@ div.flex-row {
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
-
-.card-attribute {
-    padding-bottom: 1.5em;
-    border-top: 2px solid var(--var-line-dark);
 }
 
 /* Details */
@@ -167,4 +162,10 @@ img.eye {
     body {
         font-size: 18px;
     }
+}
+
+div.time-left{
+    display: flex;
+    align-items: center;
+    padding: 1em 0;
 }
