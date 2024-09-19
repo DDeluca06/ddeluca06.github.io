@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PhotoFlip</title>
+    <link href="photostyle.css" rel="stylesheet" type="text/css" />
+    <link rel="icon" type="image/x-icon" href="/Resources/favicon.ico" />
+  </head>
+  <body>
+    <header>
+      <img style="position: absolute; height: 100px; width: 100px; left: 490px; top: 17px" src="/Resources/PhotoFlip.png" alt="PhotoFlip" />
+      <h1>PhotoFlip</h1>
+    </header>
+    <main>
+      <section id="featured">
+        <!-- Fitting into the aesthetic, let's make this look like a service. -->
+        <h2>Featured Photos</h2>
+        <!-- Create a div here so we don't need to do the mundane stuff, but these do need their own margins. -->
+        <div class="photo-grid">
+          <!-- Surely there's a better way to keep them centered, I'm just... Not sure how. Manual works fine for now. -->
+          <img class="divimg" src="Resources/DeLucas.jpg" style="width: 29%" />
+          <img class="divimg" src="Resources/Robinsons.jpg" style="margin-left: 5.5vw; width: 29%" />
+          <img class="divimg" src="Resources/Salamancas.jpg" style="margin-left: 5vw; width: 29%" />
+          <!-- This needs to be cleaned up at some point, baaaaadly. -->
+          <p style="margin-left: 2vw">
+            <a href="https://flic.kr/p/2o92C1A" target="_blank">"Family"</a>by<a href="https://www.flickr.com/photos/smallcurio/" target="_blank">smallcurio</a>is in the<a href="https://wiki.creativecommons.org/Public_domain" target="_blank">Public Domain</a>
+          </p>
+
+          <p style="margin-left: 9vw">
+            <a href="https://flic.kr/p/2nQn8Nm" target="_blank">"Family"</a>by<a href="https://www.flickr.com/photos/smallcurio/" target="_blank">smallcurio</a>is in the<a href="https://wiki.creativecommons.org/Public_domain" target="_blank">Public Domain</a></p>
+          <p style="margin-left: 11vw">
+            <a href="https://flic.kr/p/2q9tGdy" target="_blank">"Wedding party"</a>by<a href="https://www.flickr.com/photos/smallcurio/" target="_blank">smallcurio</a><br />is licensed under<a href="http://creativecommons.org/licenses/by/4.0" target="_blank">CC BY 4.0</a></p>
+          <!-- At some point we can add a bit more. -->
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="footer">
+        <p>&copy; PhotoFlip. All Rights Reserved.</p>
+        <p>Find us on<a href="https://x.com/">X</a></p>
+        <!-- Bit of humor. -->
+        <p><a href="contact-us-form.html">Contact Us</a></p>
+      </div>
+    </footer>
+  </body>
+</html>
